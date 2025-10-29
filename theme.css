@@ -1,0 +1,33 @@
+:root {
+  --tg-blue: #4A90E2;
+  --tg-purple: #9D4EDD;
+  --tg-aqua: #4DD0E1;
+  /* Surfaces & text */
+  --tg-bg: #1B1D29;
+  --tg-card: #232538;
+  --tg-text: #E8E9F3;
+  --tg-muted: #B8BCD9;
+  --tg-border: #313553;
+}
+
+html, :root, body {
+  color-scheme: dark;
+  background: var(--tg-bg) !important;
+}
+
+.mode-toggle, .theme-toggle, [data-toggle="mode"] {
+  display: none !important;
+}
+
+/* Global */
+body {
+  color: var(--tg-text);
+}
+
+a {
+  color: var(--tg-blue);
+}
+
+a:hover {
+  color: var(--tg-purple);
+}
